@@ -2,16 +2,18 @@
 using namespace std;
 
 int main() {
-    int wage;
+    int c;
+    int cPlusPlus;
+    int cSharp;
+    int percent;
 
-    cin >> wage;
-    cin >> wage;
+    c = 16.26;
+    cPlusPlus = 12.91;
+    cSharp = 5.73;
 
-    cout << "Salary of Lisa is ";
-    cout << wage * 40 * 52;
-    cout << endl;
+    percent = (c + cPlusPlus + cSharp);
 
-    cout << "Salary of John is " << wage * 40 * 52 << endl;
+    cout << percent << endl;
 
     return 0;
 }
